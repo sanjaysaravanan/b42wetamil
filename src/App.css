@@ -1,5 +1,14 @@
 .App {
   text-align: center;
+  width: 248px;
+  border: 1px solid;
+  margin: 8px;
+}
+
+input {
+  border-radius: 4px;
+  padding: 4px;
+  margin: 6px;
 }
 
 .App-logo {
@@ -32,7 +41,32 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.class-one {
+  border: 3px solid green;
+}
+
+.class-two {
+  background-color: yellow;
+}
+
+.class-three {
+  height: 100px;
+  width: 300px;
+}
+
+.class-open {
+  height: 100px;
+  border: 3px solid green;
+}
+
+.class-close {
+  width: 300px;
+  transition: height 300ms ease;
 }
